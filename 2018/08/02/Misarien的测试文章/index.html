@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="ways," />
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="就是用来测试的文章">
+<meta name="description" content="站点配置文件 _config.yml基本信息的修改title: 博客的名称subtitle: 小标题description: 描述keywords: 关键字author: 作者language: 语言 （这里的语言需要和themes的相一致）timezone: 时区 主题thmem: landscape landscape为默认主题，可自行下载喜欢的主题 部署1234deploy:  type:">
+<meta name="keywords" content="ways">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Misarien的测试文章">
+<meta property="og:title" content="博客的使用方法">
 <meta property="og:url" content="http://yoursite.com/2018/08/02/Misarien的测试文章/index.html">
 <meta property="og:site_name" content="Misarien&#39;s blog">
-<meta property="og:description" content="就是用来测试的文章">
+<meta property="og:description" content="站点配置文件 _config.yml基本信息的修改title: 博客的名称subtitle: 小标题description: 描述keywords: 关键字author: 作者language: 语言 （这里的语言需要和themes的相一致）timezone: 时区 主题thmem: landscape landscape为默认主题，可自行下载喜欢的主题 部署1234deploy:  type:">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-02T09:27:25.569Z">
+<meta property="og:updated_time" content="2018-08-03T07:51:26.684Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Misarien的测试文章">
-<meta name="twitter:description" content="就是用来测试的文章">
+<meta name="twitter:title" content="博客的使用方法">
+<meta name="twitter:description" content="站点配置文件 _config.yml基本信息的修改title: 博客的名称subtitle: 小标题description: 描述keywords: 关键字author: 作者language: 语言 （这里的语言需要和themes的相一致）timezone: 时区 主题thmem: landscape landscape为默认主题，可自行下载喜欢的主题 部署1234deploy:  type:">
 
 
 
@@ -97,7 +98,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Gemini',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -125,7 +126,7 @@
 
 
 
-  <title>Misarien的测试文章 | Misarien's blog</title>
+  <title>博客的使用方法 | Misarien's blog</title>
   
 
 
@@ -200,16 +201,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-categories">
           <a href="/categories/" rel="section">
             
@@ -267,7 +258,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Misarien">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/misarien.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -279,7 +270,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Misarien的测试文章</h1>
+          <h1 class="post-title" itemprop="name headline">博客的使用方法</h1>
         
 
         <div class="post-meta">
@@ -329,7 +320,12 @@
       
 
       
-        <p>就是用来测试的文章</p>
+        <h1 id="站点配置文件-config-yml"><a href="#站点配置文件-config-yml" class="headerlink" title="站点配置文件 _config.yml"></a>站点配置文件 _config.yml</h1><h2 id="基本信息的修改"><a href="#基本信息的修改" class="headerlink" title="基本信息的修改"></a>基本信息的修改</h2><p>title: 博客的名称<br>subtitle: 小标题<br>description: 描述<br>keywords: 关键字<br>author: 作者<br>language: 语言 （<em>这里的语言需要和themes的相一致</em>）<br>timezone: 时区</p>
+<h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><pre><code>thmem: landscape
+landscape为默认主题，可自行下载喜欢的主题
+</code></pre><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://([用户名]:[密码])@github.com/[用户名]/[用户名].github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>如需部署在多个服务器上<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- type: git</span><br><span class="line">  repo:   repo: https://([用户名]:[密码])@github.com/[用户名]/[用户名].github.io.git</span><br><span class="line"> - type: git</span><br><span class="line">   repo: oujiusama@172.105.240.76:/home/oujiusama/oujiusamanoweb.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
+<h1 id="主题配置文件-themes-config-yml"><a href="#主题配置文件-themes-config-yml" class="headerlink" title="主题配置文件 /themes/_config.yml"></a>主题配置文件 /themes/_config.yml</h1><h2 id="修改头像"><a href="#修改头像" class="headerlink" title="修改头像"></a>修改头像</h2><p>找到 avatar ，修改头像的url<br>头像的图片放在 /themes/source/images 文件目录中</p>
 
       
     </div>
@@ -344,6 +340,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ways/" rel="tag"># ways</a>
+          
+        </div>
       
 
       
@@ -414,10 +416,23 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/misarien.jpg"
+                alt="Misarien" />
             
               <p class="site-author-name" itemprop="name">Misarien</p>
               <p class="site-description motion-element" itemprop="description">this is my first blog</p>
@@ -439,6 +454,15 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
 
           </nav>
 
@@ -457,6 +481,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#站点配置文件-config-yml"><span class="nav-number">1.</span> <span class="nav-text">站点配置文件 _config.yml</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本信息的修改"><span class="nav-number">1.1.</span> <span class="nav-text">基本信息的修改</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主题"><span class="nav-number">1.2.</span> <span class="nav-text">主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#部署"><span class="nav-number">1.3.</span> <span class="nav-text">部署</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#主题配置文件-themes-config-yml"><span class="nav-number">2.</span> <span class="nav-text">主题配置文件 /themes/_config.yml</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#修改头像"><span class="nav-number">2.1.</span> <span class="nav-text">修改头像</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -489,7 +529,7 @@
 
 
 
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
 
 
 
