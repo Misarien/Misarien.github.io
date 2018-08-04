@@ -2,7 +2,12 @@
 title: 博客的使用方法
 date: 2018-08-02 16:22:19
 tag: ways
+categories: 
+- blog
 ---
+
+本文主要是面向小白的一些关于博客的设置
+<!-- more -->
 # 站点配置文件 _config.yml
 ## 基本信息的修改
 title: 博客的名称
