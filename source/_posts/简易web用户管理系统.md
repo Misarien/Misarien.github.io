@@ -10,15 +10,14 @@ categories:
 <!-- more -->
 # 准备工作
 ## 安装angular
-+ 前提条件：你的开发环境已经包含[Node.js](https://nodejs.org/en/)和[npm包管理器](https://docs.npmjs.com/about-npm/index.html)
++ 前提条件：你的开发环境已经包含[Node.js](https://nodejs.org/en/)和[npm包管理器](https://docs.npmjs.com/about-npm/index.html)   
 ### step1:安装Angular CLI
-打开终端/控制台窗口，并输入以下命令：
+打开终端/控制台窗口，并输入以下命令：  
 
-`npm install -g @angular/cli`
+`npm install -g @angular/cli `  
 
-然后经历过漫长的等待之后……
-+ 需要注意的是，在npm install的时候需翻墙，若不翻墙会导致某些组件无法成功安装，出现Error警告字样。
-
+然后经历过漫长的等待之后……  
++ 需要注意的是，在npm install的时候需翻墙，若不翻墙会导致某些组件无法成功安装，出现Error警告字样。  
 
 ---
 ### step2:创建工作空间和初始应用
@@ -26,8 +25,9 @@ categories:
 
 `ng new my-app`
 
-该行命令则表示创建一个名为my-app的应用。因为Angular CLI 会安装必要的Angular npm包及其他依赖，所以这里可能也要花上一些时间。
-该命令还会创建下列工作空间和初始项目文件：
+该行命令则表示创建一个名为my-app的应用。因为Angular CLI 会安装必要的Angular npm包及其他依赖，所以这里可能也要花上一些时间。  
+该命令还会创建下列工作空间和初始项目文件：  
+
 + 一个新的工作空间，根目录名为my-app
 + 一个初始的骨架应用项目，也叫my-app（位于src目录下）
 + 一个端到端的测试项目（位于e2e目录下）
